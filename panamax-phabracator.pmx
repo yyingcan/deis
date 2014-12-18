@@ -1,0 +1,14 @@
+---
+name: panamax-phabracator
+description: ''
+keywords: phabricator
+type: Default
+documentation: ''
+images:
+- name: yesnault_docker-phabricator_latest
+  source: yesnault/docker-phabricator:latest
+  type: Default
+  ports:
+  - host_port: '8081'
+    container_port: '80'
+    proto: TCP
